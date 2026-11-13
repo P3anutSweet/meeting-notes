@@ -1,0 +1,28 @@
+# your own settings and launcher path (never commit them)
+meeting_notes_settings.json
+meeting_notes_python.txt
+.env
+.env.*
+# environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+# recordings, transcripts, models, logs
+sessions/
+models/
+Meetings/
+logs/
+*.log
+*.wav
+*.opus
+*.mp3
+*.mp4
+*.onnx
+*.bin
+transcript*.md
+notes.md
+*.jsonl
+.meeting_notes.lock
+.meeting_notes_session
+*.lock

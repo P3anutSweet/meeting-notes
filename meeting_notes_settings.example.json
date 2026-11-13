@@ -1,0 +1,32 @@
+{
+  "_about": "Copy to meeting_notes_settings.json (next to the scripts) and change what you need. Every key is optional; these are the defaults. Paths may use forward slashes, %VARIABLES% and ~. Any key can also be set with an environment variable MN_<KEY>, e.g. MN_OUTPUT_DIR.",
+  "cache_dir": "%LOCALAPPDATA%/MeetingNotes",
+  "models_dir": "",
+  "output_dir": "~/Documents/Meetings",
+  "log_dir": "",
+  "time_zone": "local",
+  "time_zone_label": "",
+  "live_model": "large-v3-turbo",
+  "final_model": "large-v3",
+  "device": "cuda",
+  "compute_type": "float16",
+  "notes_engines": [
+    "claude",
+    "codex"
+  ],
+  "claude_label": "Claude (claude CLI)",
+  "codex_label": "Codex (codex CLI)",
+  "notes_for": "the person who recorded this meeting",
+  "me_is": "that person",
+  "notes_failed_hint": "retry later with --notes-only, or write the notes from transcript.md",
+  "limits_json": "%LOCALAPPDATA%/ai-limits-monitor/latest.json",
+  "native_minutes": false,
+  "node": "",
+  "tmeet_script": "",
+  "lark_script": "",
+  "ledger_enabled": false,
+  "ledger_writer": "markdown",
+  "ledger_path": "",
+  "ledger_section": "## Reports from other threads",
+  "background": "wallpaper"
+}

@@ -1,0 +1,16 @@
+# Tested with Python 3.12 on Windows 11 (versions are the ones tested, not hard limits)
+numpy>=2.0
+Pillow>=10.0
+pycaw>=20240316
+comtypes>=1.4
+soxr>=0.5
+PyAudioWPatch>=0.2.12
+pystray>=0.19
+faster-whisper>=1.2
+opencc-python-reimplemented>=0.1.7
+imageio-ffmpeg>=0.5
+av>=12.0
+sherpa-onnx>=1.10
+# NVIDIA GPU: CUDA 12 runtime libraries for CTranslate2 (skip on CPU-only PCs, set "device": "cpu")
+nvidia-cublas-cu12
+nvidia-cudnn-cu12
